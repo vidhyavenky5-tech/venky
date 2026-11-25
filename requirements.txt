@@ -1,0 +1,14 @@
+# Agri-SOC Offline Leaf Assistant
+# Tested compatibility set for Python 3.11 on Windows:
+numpy==1.26.4
+pandas==2.2.3
+opencv-python==4.10.0.84
+Pillow>=10.0,<13
+scikit-learn>=1.4,<1.7
+tqdm>=4.66,<5
+joblib>=1.3,<2
+
+# Keep these together: pip resolves a mutually compatible Torch/Torchvision pair.
+# CPU inference is supported; no CUDA toolkit is required.
+torch
+torchvision

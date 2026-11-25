@@ -1,0 +1,11 @@
+{
+  "main_application": "field_assistant.py",
+  "classifier_checkpoint": "preprocessed/leaf_aligned42/field_model_runs/combined_mobile42_s42/best.pt",
+  "classifier_class_count": 42,
+  "classifier_backbone": "mobilenet_v3_large",
+  "severity_checkpoint_classes": 0,
+  "run_command": "python field_assistant.py",
+  "recommended_windows_launch": "Double-click RUN_AGRI_SOC.bat",
+  "python_version": "3.11",
+  "dependency_strategy": "isolated virtual environment; pinned NumPy/Pandas/OpenCV"
+}
